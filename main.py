@@ -16,6 +16,6 @@ while True:
     pixs = get_image().getpixel((1, 1))
     if pixs[0] == 0 and pixs[1] == 230 and pixs[2] == 203:
         pyautogui.click(startx, starty)
-        pyautogui.moveRel(0, 10)
+        pyautogui.moveRel(0, -25)
     sleep(3)
     
